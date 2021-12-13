@@ -1,0 +1,105 @@
+@import "generales";
+
+@media (max-width: 560px){
+    .portada-index{
+        padding: 5vh 5vh;
+
+        h1{
+            font-size: 3rem;
+        }
+    }
+    .portada-bano{
+        padding: 5vh 5vh;
+
+        h1{
+            font-size: 3rem;
+        }
+    }
+
+    .portada-cocina{
+        padding: 5vh 5vh;
+
+        h1{
+            font-size: 3rem;
+        }
+    }
+
+    .portada-dormitorio{
+        padding: 5vh 5vh;
+
+        h1{
+            font-size: 3rem;
+        }
+    }
+
+    .portada-oficina{
+        padding: 5vh 5vh;
+
+        h1{
+            font-size: 3rem;
+        }
+    }
+}
+
+@media (max-width: 380px){
+    .portada-index{
+        padding: 5vh 5vh;
+
+        .parrafo {
+            margin-top: 10px;
+            font-size: map-get($map: $headings, $key: 'h3');
+        }
+
+        h1{
+            font-size: 2rem;
+        }
+    }
+    .portada-bano{
+        padding: 5vh 5vh;
+
+        .parrafo {
+            margin-top: 10px;
+            font-size: map-get($map: $headings, $key: 'h3');
+        }
+
+        h1{
+            font-size: 2rem;
+        }
+    }
+    .portada-cocina{
+        padding: 5vh 5vh;
+
+        .parrafo {
+            margin-top: 10px;
+            font-size: map-get($map: $headings, $key: 'h3');
+        }
+
+        h1{
+            font-size: 2rem;
+        }
+    }
+    .portada-dormitorio{
+        padding: 5vh 5vh;
+
+        .parrafo {
+            margin-top: 10px;
+            font-size: map-get($map: $headings, $key: 'h3');
+        }
+
+        h1{
+            font-size: 2rem;
+        }
+    }
+    .portada-oficina{
+        padding: 5vh 5vh;
+
+        .parrafo {
+            margin-top: 10px;
+            font-size: map-get($map: $headings, $key: 'h3');
+        }
+
+        h1{
+            font-size: 2rem;
+        }
+    }
+}

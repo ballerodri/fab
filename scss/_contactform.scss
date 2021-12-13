@@ -1,0 +1,104 @@
+@import "generales";
+
+.contact-form{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5em;
+    line-height: 1.6;
+
+    .wrapper-grid-contact{
+        box-shadow: 0px 2px 8px 0px nth($colores, 3);
+
+        .info {
+            background: nth($colores, 3);
+            color: nth($colores, 1);
+
+            .icons {
+                margin: 1.5rem 0 0 0;
+                
+                .fa {
+                  font-size: 1.3rem;
+                  color: nth($colores, 1);
+            
+                  &:hover {
+                    color: darken(nth($colores, 3), 25%);
+                    transition: color 0.3s ease-in;
+                  }
+                }
+            }
+
+            h3,ul{
+                text-align: center;
+                margin: 0 0 1rem 0;
+            }
+        }
+
+        .contact{
+            background: nth($colores, 1);
+
+            form {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-gap: 20px;
+
+                label {
+                    display: block;
+                }
+
+                p {
+                    margin: 0;
+                }
+
+                .full {
+                    grid-column: 1 / 3;
+                }
+
+                button, input, textarea {
+                    width: 100%;
+                    padding: 0.5em;
+                    border: 1.5px solid nth($colores, 4);
+                }
+
+                button {
+                    background-color: nth($colores, 3);
+                    color: nth($colores, 1);
+                    border: 1px solid nth($colores, 3);
+                    margin-top: 0px;
+                    padding: 10px 50px 10px 50px;
+                    border-radius: 4px;
+                    text-transform: uppercase;
+                    cursor: pointer;
+
+                    &:hover, &:focus {
+                         background: nth($colores, 2);
+                         color: #fff;
+                         transition: background-color 1s ease-out;
+                         outline: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .wrapper-grid-contact > * {
+        padding: 1em;
+    }
+}
+
+@media(min-width:700px){
+    .contact-form{
+        padding: 2em;
+
+        .wrapper-grid-contact{
+            display:grid;
+            grid-template-columns: 1fr 2fr;
+
+            .info {
+                h3, ul{
+                    text-align: left;
+                }
+            }
+        }
+    }
+}

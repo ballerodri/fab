@@ -1,0 +1,1265 @@
+/* Font Robto */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/* DEFINO LA LISTA COLORES A UTILIZAR EN EL SITIO*/
+/* CARACTERISTICAS GENERALES DEL SITIO */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+:root {
+  --clr-primary: #651fff;
+  --clr-gray: #37474f;
+  --clr-gray-light: #b0bec5;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Robot", sans-serif;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+/* DEINO EL MAP */
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+  display: none;
+}
+
+/* Font Robto */
+/* DEFINO LA LISTA COLORES A UTILIZAR EN EL SITIO*/
+/* CARACTERISTICAS GENERALES DEL SITIO */
+:root {
+  --clr-primary: #651fff;
+  --clr-gray: #37474f;
+  --clr-gray-light: #b0bec5;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Robot", sans-serif;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+/* DEINO EL MAP */
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+  display: none;
+}
+
+@media (max-width: 560px) {
+  .portada-index {
+    padding: 5vh 5vh;
+  }
+  .portada-index h1 {
+    font-size: 3rem;
+  }
+
+  .portada-bano {
+    padding: 5vh 5vh;
+  }
+  .portada-bano h1 {
+    font-size: 3rem;
+  }
+
+  .portada-cocina {
+    padding: 5vh 5vh;
+  }
+  .portada-cocina h1 {
+    font-size: 3rem;
+  }
+
+  .portada-dormitorio {
+    padding: 5vh 5vh;
+  }
+  .portada-dormitorio h1 {
+    font-size: 3rem;
+  }
+
+  .portada-oficina {
+    padding: 5vh 5vh;
+  }
+  .portada-oficina h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 380px) {
+  .portada-index {
+    padding: 5vh 5vh;
+  }
+  .portada-index .parrafo {
+    margin-top: 10px;
+    font-size: 2em;
+  }
+  .portada-index h1 {
+    font-size: 2rem;
+  }
+
+  .portada-bano {
+    padding: 5vh 5vh;
+  }
+  .portada-bano .parrafo {
+    margin-top: 10px;
+    font-size: 2em;
+  }
+  .portada-bano h1 {
+    font-size: 2rem;
+  }
+
+  .portada-cocina {
+    padding: 5vh 5vh;
+  }
+  .portada-cocina .parrafo {
+    margin-top: 10px;
+    font-size: 2em;
+  }
+  .portada-cocina h1 {
+    font-size: 2rem;
+  }
+
+  .portada-dormitorio {
+    padding: 5vh 5vh;
+  }
+  .portada-dormitorio .parrafo {
+    margin-top: 10px;
+    font-size: 2em;
+  }
+  .portada-dormitorio h1 {
+    font-size: 2rem;
+  }
+
+  .portada-oficina {
+    padding: 5vh 5vh;
+  }
+  .portada-oficina .parrafo {
+    margin-top: 10px;
+    font-size: 2em;
+  }
+  .portada-oficina h1 {
+    font-size: 2rem;
+  }
+}
+/* Font Robto */
+/* DEFINO LA LISTA COLORES A UTILIZAR EN EL SITIO*/
+/* CARACTERISTICAS GENERALES DEL SITIO */
+:root {
+  --clr-primary: #651fff;
+  --clr-gray: #37474f;
+  --clr-gray-light: #b0bec5;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Robot", sans-serif;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+/* DEINO EL MAP */
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+  display: none;
+}
+
+/* Defino caracteristicas del header */
+header nav {
+  background: #fff;
+  height: 80px;
+  width: 100%;
+  box-shadow: 0px 2px 8px 0px #54595F;
+}
+header nav .logo {
+  padding: 10px 0 0 20px;
+  height: 70px;
+}
+header nav ul {
+  float: right;
+  margin-right: 20px;
+}
+header nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+header nav ul li a {
+  color: #54595F;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+header nav ul li a:hover, header nav ul li a.active {
+  background: #54595F;
+  color: #fff;
+  transition: 0.5s;
+}
+header .checkbtn {
+  font-size: 30px;
+  color: #54595F;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+header #check {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  header nav ul li a {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  header nav ul {
+    position: fixed;
+    width: 100%;
+    height: 50vh;
+    background: #e7e7e7;
+    top: -100%;
+    text-align: center;
+  }
+  header nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 60px;
+  }
+  header nav ul li a {
+    font-size: 20px;
+  }
+  header nav ul li a.active, header nav ul li a:hover {
+    background: none;
+    color: #54595F;
+  }
+  header nav .checkbtn {
+    display: block;
+  }
+  header nav #check:checked ~ ul {
+    position: absolute;
+    width: 100%;
+    top: 80px;
+  }
+}
+@media (max-width: 480px) {
+  header nav ul {
+    position: fixed;
+    width: 100%;
+    height: 50vh;
+    background: #e7e7e7;
+    top: 80px;
+    top: -100%;
+    text-align: center;
+  }
+  header nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  header nav ul li a {
+    font-size: 16px;
+  }
+  header nav ul li a:hover, header nav ul li a.active {
+    background: none;
+    color: #54595F;
+  }
+  header nav .checkbtn {
+    display: block;
+  }
+  header nav #check:checked ~ ul {
+    position: absolute;
+    width: 100%;
+    top: 80px;
+  }
+}
+/* Font Robto */
+/* DEFINO LA LISTA COLORES A UTILIZAR EN EL SITIO*/
+/* CARACTERISTICAS GENERALES DEL SITIO */
+:root {
+  --clr-primary: #651fff;
+  --clr-gray: #37474f;
+  --clr-gray-light: #b0bec5;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Robot", sans-serif;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+/* DEINO EL MAP */
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+  display: none;
+}
+
+.portada-index {
+  background: url("../src/images/cocinas/cocina 1.jpeg") no-repeat;
+  background-size: cover;
+  background-position: 50% 40%;
+  height: 50vh;
+  padding: 10vh 5vh;
+  margin-bottom: 15vh;
+  color: #fff;
+  box-shadow: 0px 2px 8px 0px #54595F;
+}
+.portada-index .parrafo {
+  margin-top: 5px;
+  font-size: 1em;
+}
+.portada-index .boton {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 20px 50px 20px 50px;
+  margin-top: 30px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 0.1s;
+}
+.portada-index .boton:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.portada-bano {
+  background: url("../src/images/banos/bano 1.jpeg") no-repeat;
+  background-size: cover;
+  background-position: 50% 0%;
+  height: 50vh;
+  padding: 10vh 5vh;
+  margin-bottom: 15vh;
+  color: #fff;
+  box-shadow: 0px 2px 8px 0px #54595F;
+}
+.portada-bano .parrafo {
+  margin-top: 5px;
+  font-size: 1em;
+}
+.portada-bano .boton {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 20px 50px 20px 50px;
+  margin-top: 30px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 0.1s;
+}
+.portada-bano .boton:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.portada-cocina {
+  background: url("../src/images/cocinas/cocina 5.jpeg") no-repeat;
+  background-size: cover;
+  background-position: 50% 55%;
+  height: 50vh;
+  padding: 10vh 5vh;
+  margin-bottom: 15vh;
+  color: #fff;
+  box-shadow: 0px 2px 8px 0px #54595F;
+}
+.portada-cocina .parrafo {
+  margin-top: 5px;
+  font-size: 1em;
+}
+.portada-cocina .boton {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 20px 50px 20px 50px;
+  margin-top: 30px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 0.1s;
+}
+.portada-cocina .boton:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.portada-dormitorio {
+  background: url("../src/images/dormitorios/placard 1.jpeg") no-repeat;
+  background-size: cover;
+  background-position: 50% 60%;
+  height: 50vh;
+  padding: 10vh 5vh;
+  margin-bottom: 15vh;
+  color: #fff;
+  box-shadow: 0px 2px 8px 0px #54595F;
+}
+.portada-dormitorio .parrafo {
+  margin-top: 5px;
+  font-size: 1em;
+}
+.portada-dormitorio .boton {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 20px 50px 20px 50px;
+  margin-top: 30px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 0.1s;
+}
+.portada-dormitorio .boton:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.portada-oficina {
+  background: url("../src/images/oficinas/oficina 1.jpeg") no-repeat;
+  background-size: cover;
+  background-position: 50% 30%;
+  height: 50vh;
+  padding: 10vh 5vh;
+  margin-bottom: 15vh;
+  color: #fff;
+  box-shadow: 0px 2px 8px 0px #54595F;
+}
+.portada-oficina .parrafo {
+  margin-top: 5px;
+  font-size: 1em;
+}
+.portada-oficina .boton {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 20px 50px 20px 50px;
+  margin-top: 30px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 0.1s;
+}
+.portada-oficina .boton:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Font Robto */
+/* DEFINO LA LISTA COLORES A UTILIZAR EN EL SITIO*/
+/* CARACTERISTICAS GENERALES DEL SITIO */
+:root {
+  --clr-primary: #651fff;
+  --clr-gray: #37474f;
+  --clr-gray-light: #b0bec5;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Robot", sans-serif;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+/* DEINO EL MAP */
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+  display: none;
+}
+
+.divisor-aboutus {
+  height: 20vh;
+  padding: 5vh;
+  margin-top: 0;
+  margin-bottom: 15vh;
+  text-align: center;
+}
+.divisor-aboutus .titulo {
+  font-size: 3em;
+  color: #333;
+  margin-bottom: 2vh;
+}
+.divisor-aboutus .descripcion {
+  font-size: 1.2em;
+  color: #54595F;
+}
+
+.divisor-catalogo {
+  height: 20vh;
+  padding: 5vh;
+  margin-top: 0vh;
+  margin-bottom: 0vh;
+  text-align: center;
+}
+.divisor-catalogo .titulo {
+  font-size: 3em;
+  color: #333;
+  margin-bottom: 2vh;
+}
+.divisor-catalogo .descripcion {
+  font-size: 1.2em;
+  color: #54595F;
+}
+.divisor-catalogo .titulo {
+  color: #fff;
+  margin-bottom: 2vh;
+}
+.divisor-catalogo .descripcion {
+  color: #fff;
+}
+
+.divisor-contacto {
+  height: 20vh;
+  padding: 5vh;
+  margin-top: 10vh;
+  margin-bottom: 0vh;
+  text-align: center;
+}
+.divisor-contacto .titulo {
+  font-size: 3em;
+  color: #333;
+  margin-bottom: 2vh;
+}
+.divisor-contacto .descripcion {
+  font-size: 1.2em;
+  color: #54595F;
+}
+
+@media (max-width: 768px) {
+  .divisor-aboutus {
+    margin-bottom: 35vh;
+  }
+
+  .divisor-catalogo {
+    margin-bottom: 10vh;
+  }
+
+  .divisor-contacto {
+    margin-bottom: 12vh;
+  }
+}
+@media (max-width: 380px) {
+  .divisor-aboutus {
+    margin-bottom: 50vh;
+  }
+
+  .divisor-catalogo {
+    margin-bottom: 20vh;
+  }
+
+  .divisor-contacto {
+    margin-bottom: 25vh;
+  }
+}
+/* Font Robto */
+/* DEFINO LA LISTA COLORES A UTILIZAR EN EL SITIO*/
+/* CARACTERISTICAS GENERALES DEL SITIO */
+:root {
+  --clr-primary: #651fff;
+  --clr-gray: #37474f;
+  --clr-gray-light: #b0bec5;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Robot", sans-serif;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+/* DEINO EL MAP */
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+  display: none;
+}
+
+#catalogo {
+  background-color: #54595F;
+  padding: 1.5rem;
+}
+
+/* Font Robto */
+/* DEFINO LA LISTA COLORES A UTILIZAR EN EL SITIO*/
+/* CARACTERISTICAS GENERALES DEL SITIO */
+:root {
+  --clr-primary: #651fff;
+  --clr-gray: #37474f;
+  --clr-gray-light: #b0bec5;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Robot", sans-serif;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+/* DEINO EL MAP */
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+  display: none;
+}
+
+.gallery-oficina .wrapper-grid, .gallery-dormitorio .wrapper-grid, .gallery-cocina .wrapper-grid, .gallery-bano .wrapper-grid, .gallery-index .wrapper-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  justify-content: center;
+}
+.gallery-oficina .wrapper-grid .container, .gallery-dormitorio .wrapper-grid .container, .gallery-cocina .wrapper-grid .container, .gallery-bano .wrapper-grid .container, .gallery-index .wrapper-grid .container {
+  overflow: hidden;
+  box-shadow: 0px 2px 8px 0px #54595F;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 1rem;
+  position: relative;
+  margin: 0.5rem;
+}
+.gallery-oficina .wrapper-grid .container:hover, .gallery-dormitorio .wrapper-grid .container:hover, .gallery-cocina .wrapper-grid .container:hover, .gallery-bano .wrapper-grid .container:hover, .gallery-index .wrapper-grid .container:hover {
+  transition: all 0.3s ease;
+  transform: scale(0.99);
+  /* (96% zoom) */
+}
+
+.gallery-index .container {
+  cursor: pointer;
+}
+.gallery-index .container .name {
+  font-weight: bold;
+  margin-top: 20.5rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+.gallery-index .container .description {
+  margin: 1rem 2rem;
+  font-size: 0.9rem;
+  color: #54595F;
+}
+.gallery-index .container .banner-img-cocina {
+  position: absolute;
+  background-image: url("../src/images/cocinas/cocina 1.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gallery-index .container .banner-img-dormitorio {
+  position: absolute;
+  background-image: url("../src/images/dormitorios/placard 1.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gallery-index .container .banner-img-bano {
+  position: absolute;
+  background-image: url("../src/images/banos/bano 2.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gallery-index .container .banner-img-oficina {
+  position: absolute;
+  background-image: url("../src/images/oficinas/oficina 1.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gallery-bano .container {
+  height: 20rem;
+}
+.gallery-bano .container .banner-img-bano1 {
+  position: absolute;
+  background: url("../src/images/banos/bano 3.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 19.5rem;
+}
+.gallery-bano .container .banner-img-bano2 {
+  position: absolute;
+  background: url("../src/images/banos/bano 2.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 19.5rem;
+}
+.gallery-bano .container .banner-img-bano3 {
+  position: absolute;
+  background: url("../src/images/banos/bano 4.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 19.5rem;
+}
+.gallery-bano .container .banner-img-bano4 {
+  position: absolute;
+  background: url("../src/images/banos/bano 1.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 19.5rem;
+}
+
+.gallery-cocina .wrapper-grid {
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+}
+.gallery-cocina .wrapper-grid .container {
+  height: 20rem;
+}
+.gallery-cocina .wrapper-grid .container .banner-img-cocina1 {
+  position: absolute;
+  background: url("../src/images/cocinas/cocina 1.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 19.5rem;
+}
+.gallery-cocina .wrapper-grid .container .banner-img-cocina2 {
+  position: absolute;
+  background: url("../src/images/cocinas/cocina 2.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 19.5rem;
+}
+.gallery-cocina .wrapper-grid .container .banner-img-cocina3 {
+  position: absolute;
+  background: url("../src/images/cocinas/cocina 3.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 19.5rem;
+}
+.gallery-cocina .wrapper-grid .container .banner-img-cocina4 {
+  position: absolute;
+  background: url("../src/images/cocinas/cocina 4.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 19.5rem;
+  background-position: 50% 60%;
+}
+.gallery-cocina .wrapper-grid .container .banner-img-cocina5 {
+  position: absolute;
+  background: url("../src/images/cocinas/cocina 5.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 19.5rem;
+}
+.gallery-cocina .wrapper-grid .container .banner-img-cocina6 {
+  position: absolute;
+  background: url("../src/images/cocinas/cocina 6.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 19.5rem;
+}
+.gallery-cocina .wrapper-grid .container .banner-img-cocina7 {
+  position: absolute;
+  background: url("../src/images/cocinas/cocina 7.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 19.5rem;
+}
+.gallery-cocina .wrapper-grid .container .banner-img-cocina8 {
+  position: absolute;
+  background: url("../src/images/cocinas/cocina 8.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 19.5rem;
+}
+.gallery-cocina .wrapper-grid .container .banner-img-cocina9 {
+  position: absolute;
+  background: url("../src/images/cocinas/cocina 9.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 19.5rem;
+}
+.gallery-cocina .wrapper-grid .container .banner-img-cocina10 {
+  position: absolute;
+  background: url("../src/images/cocinas/cocina 10.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 19.5rem;
+}
+.gallery-cocina .wrapper-grid .container .banner-img-cocina11 {
+  position: absolute;
+  background: url("../src/images/cocinas/cocina 11.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 19.5rem;
+}
+.gallery-cocina .wrapper-grid .container .banner-img-cocina12 {
+  position: absolute;
+  background: url("../src/images/cocinas/cocina 12.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 19.5rem;
+}
+
+.gallery-dormitorio .wrapper-grid {
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+}
+.gallery-dormitorio .wrapper-grid .container {
+  height: 20rem;
+}
+.gallery-dormitorio .wrapper-grid .container .banner-img-dormitorio1 {
+  position: absolute;
+  background: url("../src/images/dormitorios/Comoda y estantes flotantes.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 19.5rem;
+  background-position: 80%;
+}
+.gallery-dormitorio .wrapper-grid .container .banner-img-dormitorio2 {
+  position: absolute;
+  background: url("../src/images/dormitorios/cajonera industrial.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 19.5rem;
+  background-position: 0 65%;
+}
+.gallery-dormitorio .wrapper-grid .container .banner-img-dormitorio3 {
+  position: absolute;
+  background: url("../src/images/dormitorios/Modular.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 19.5rem;
+  background-position: 38% 65%;
+}
+.gallery-dormitorio .wrapper-grid .container .banner-img-dormitorio4 {
+  position: absolute;
+  background: url("../src/images/dormitorios/RACK TV.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 19.5rem;
+  background-position: 35% 80%;
+}
+.gallery-dormitorio .wrapper-grid .container .banner-img-dormitorio5 {
+  position: absolute;
+  background: url("../src/images/dormitorios/placard con cajonera y rack tv.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 19.5rem;
+  background-position: 75% 65%;
+}
+.gallery-dormitorio .wrapper-grid .container .banner-img-dormitorio6 {
+  position: absolute;
+  background: url("../src/images/dormitorios/cama.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 19.5rem;
+  background-position: 5% 65%;
+}
+.gallery-dormitorio .wrapper-grid .container .banner-img-dormitorio7 {
+  position: absolute;
+  background: url("../src/images/dormitorios/placard 1.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 19.5rem;
+  background-position: 70% 80%;
+}
+.gallery-dormitorio .wrapper-grid .container .banner-img-dormitorio8 {
+  position: absolute;
+  background: url("../src/images/dormitorios/placard 2.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 19.5rem;
+  background-position: 75% 50%;
+}
+.gallery-dormitorio .wrapper-grid .container .banner-img-dormitorio9 {
+  position: absolute;
+  background: url("../src/images/dormitorios/placard 3.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 19.5rem;
+  background-position: 5% 50%;
+}
+.gallery-dormitorio .wrapper-grid .container .banner-img-dormitorio10 {
+  position: absolute;
+  background: url("../src/images/dormitorios/placard 4.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 19.5rem;
+  background-position: 40% 50%;
+}
+.gallery-dormitorio .wrapper-grid .container .banner-img-dormitorio11 {
+  position: absolute;
+  background: url("../src/images/dormitorios/vestidor.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 19.5rem;
+  background-position: 40% 50%;
+}
+
+.gallery-oficina .wrapper-grid {
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+}
+.gallery-oficina .wrapper-grid .container {
+  height: 20rem;
+}
+.gallery-oficina .wrapper-grid .container .banner-img-oficina1 {
+  position: absolute;
+  background: url("../src/images/oficinas/oficina 1.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 19.5rem;
+}
+.gallery-oficina .wrapper-grid .container .banner-img-oficina2 {
+  position: absolute;
+  background: url("../src/images/oficinas/oficina 2.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 19.5rem;
+}
+.gallery-oficina .wrapper-grid .container .banner-img-oficina3 {
+  position: absolute;
+  background: url("../src/images/oficinas/oficina 3.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 19.5rem;
+}
+.gallery-oficina .wrapper-grid .container .banner-img-oficina4 {
+  position: absolute;
+  background: url("../src/images/oficinas/oficina 4.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 19.5rem;
+  background-position: 50% 60%;
+}
+.gallery-oficina .wrapper-grid .container .banner-img-oficina5 {
+  position: absolute;
+  background: url("../src/images/oficinas/oficina 5.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 19.5rem;
+}
+.gallery-oficina .wrapper-grid .container .banner-img-oficina6 {
+  position: absolute;
+  background: url("../src/images/oficinas/oficina 6.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 19.5rem;
+}
+.gallery-oficina .wrapper-grid .container .banner-img-oficina7 {
+  position: absolute;
+  background: url("../src/images/oficinas/oficina 7.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 19.5rem;
+}
+.gallery-oficina .wrapper-grid .container .banner-img-oficina8 {
+  position: absolute;
+  background: url("../src/images/oficinas/oficina 8.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 19.5rem;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .gallery-index .wrapper-grid {
+    grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+  }
+
+  .gallery-bano .wrapper-grid {
+    grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+  }
+
+  .gallery-cocina .wrapper-grid {
+    grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+  }
+
+  .gallery-dormitorio .wrapper-grid {
+    grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+  }
+
+  .gallery-oficina .wrapper-grid {
+    grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+  }
+}
+@media (max-width: 768px) {
+  .gallery-index .wrapper-grid {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  }
+
+  .gallery-bano .wrapper-grid {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  }
+
+  .gallery-cocina .wrapper-grid {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  }
+
+  .gallery-dormitorio .wrapper-grid {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  }
+
+  .gallery-oficina .wrapper-grid {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  }
+}
+/* Font Robto */
+/* DEFINO LA LISTA COLORES A UTILIZAR EN EL SITIO*/
+/* CARACTERISTICAS GENERALES DEL SITIO */
+:root {
+  --clr-primary: #651fff;
+  --clr-gray: #37474f;
+  --clr-gray-light: #b0bec5;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Robot", sans-serif;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+/* DEINO EL MAP */
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+  display: none;
+}
+
+.contact-form {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5em;
+  line-height: 1.6;
+}
+.contact-form .wrapper-grid-contact {
+  box-shadow: 0px 2px 8px 0px #54595F;
+}
+.contact-form .wrapper-grid-contact .info {
+  background: #54595F;
+  color: #fff;
+}
+.contact-form .wrapper-grid-contact .info .icons {
+  margin: 1.5rem 0 0 0;
+}
+.contact-form .wrapper-grid-contact .info .icons .fa {
+  font-size: 1.3rem;
+  color: #fff;
+}
+.contact-form .wrapper-grid-contact .info .icons .fa:hover {
+  color: #181a1b;
+  transition: color 0.3s ease-in;
+}
+.contact-form .wrapper-grid-contact .info h3, .contact-form .wrapper-grid-contact .info ul {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+.contact-form .wrapper-grid-contact .contact {
+  background: #fff;
+}
+.contact-form .wrapper-grid-contact .contact form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+.contact-form .wrapper-grid-contact .contact form label {
+  display: block;
+}
+.contact-form .wrapper-grid-contact .contact form p {
+  margin: 0;
+}
+.contact-form .wrapper-grid-contact .contact form .full {
+  grid-column: 1/3;
+}
+.contact-form .wrapper-grid-contact .contact form button, .contact-form .wrapper-grid-contact .contact form input, .contact-form .wrapper-grid-contact .contact form textarea {
+  width: 100%;
+  padding: 0.5em;
+  border: 1.5px solid #e7e7e7;
+}
+.contact-form .wrapper-grid-contact .contact form button {
+  background-color: #54595F;
+  color: #fff;
+  border: 1px solid #54595F;
+  margin-top: 0px;
+  padding: 10px 50px 10px 50px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.contact-form .wrapper-grid-contact .contact form button:hover, .contact-form .wrapper-grid-contact .contact form button:focus {
+  background: #333;
+  color: #fff;
+  transition: background-color 1s ease-out;
+  outline: 0;
+}
+.contact-form .wrapper-grid-contact > * {
+  padding: 1em;
+}
+
+@media (min-width: 700px) {
+  .contact-form {
+    padding: 2em;
+  }
+  .contact-form .wrapper-grid-contact {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .contact-form .wrapper-grid-contact .info h3, .contact-form .wrapper-grid-contact .info ul {
+    text-align: left;
+  }
+}
+/* DEFINO LA LISTA COLORES A UTILIZAR EN EL SITIO*/
+/* Defino caracteristicas del footer */
+.social-footer {
+  margin-top: 10vh;
+  padding: 1rem;
+  background: #54595F;
+}
+.social-footer .social-footer-icons li {
+  display: inline;
+}
+.social-footer .social-footer-icons .fa {
+  font-size: 1.5rem;
+  color: #fff;
+}
+.social-footer .social-footer-icons .fa:hover {
+  color: #181a1b;
+  transition: color 0.3s ease-in;
+}
+
+/*# sourceMappingURL=style.css.map */

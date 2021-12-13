@@ -1,0 +1,374 @@
+@import "generales";
+
+%gallery {
+    .wrapper-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+        justify-content: center;
+
+        .container {
+            overflow: hidden;
+            box-shadow: 0px 2px 8px 0px nth($colores, 3);
+            background-color: nth($colores, 1);
+            text-align: center;
+            border-radius: 1rem;
+            position: relative;
+            margin: 0.5rem;
+
+            &:hover{
+                transition: all .3s ease;
+                transform: scale(0.99); /* (96% zoom) */
+            }
+          }          
+      }
+}
+
+.gallery-index {
+  @extend %gallery;
+
+  .container {
+    cursor: pointer;
+
+    .name {
+      font-weight: bold;
+      margin-top: 20.5rem;
+      font-size: 1.5rem;
+      color: nth($colores, 2);
+    }
+    
+    .description {
+      margin: 1rem 2rem;
+      font-size: 0.9rem;
+      color: nth($colores, 3);
+    }
+    
+    @mixin banner-img ($image) {
+      position: absolute;
+      background-image: $image;
+      height: 20rem;
+      width: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .banner-img-cocina {
+        @include banner-img(url('../src/images/cocinas/cocina\ 1.jpeg'));
+    }
+
+    .banner-img-dormitorio {
+        @include banner-img(url('../src/images/dormitorios/placard\ 1.jpeg'));
+    }
+
+    .banner-img-bano {
+      @include banner-img(url('../src/images/banos/bano\ 2.jpeg'));
+    }
+
+    .banner-img-oficina {
+      @include banner-img(url('../src/images/oficinas/oficina\ 1.jpeg'));
+    }
+  }
+
+}
+
+.gallery-bano {
+  @extend %gallery;
+
+  .container {
+    height: 20rem;      
+        
+      @mixin banner-img ($image) {
+        position: absolute;
+        background: $image;
+        height: 20rem;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 19.5rem;
+      }
+
+      .banner-img-bano1 {
+          @include banner-img(url('../src/images/banos/bano\ 3.jpeg'));
+      }
+
+      .banner-img-bano2 {
+          @include banner-img(url('../src/images/banos/bano\ 2.jpeg'));
+      }
+
+      .banner-img-bano3 {
+        @include banner-img(url('../src/images/banos/bano\ 4.jpeg'));
+      }
+
+      .banner-img-bano4 {
+        @include banner-img(url('../src/images/banos/bano\ 1.jpeg'));
+      }
+    }
+}
+
+.gallery-cocina {
+  @extend %gallery;
+
+  .wrapper-grid {
+
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+
+    .container {
+      height: 20rem;      
+          
+        @mixin banner-img ($image) {
+          position: absolute;
+          background: $image;
+          height: 20rem;
+          width: 100%;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          margin-bottom: 19.5rem;
+        }
+
+        .banner-img-cocina1 {
+            @include banner-img(url('../src/images/cocinas/cocina\ 1.jpeg'));
+        }
+
+        .banner-img-cocina2 {
+            @include banner-img(url('../src/images/cocinas/cocina\ 2.jpeg'));
+        }
+
+        .banner-img-cocina3 {
+          @include banner-img(url('../src/images/cocinas/cocina\ 3.jpeg'));
+        }
+
+        .banner-img-cocina4 {
+          @include banner-img(url('../src/images/cocinas/cocina\ 4.jpeg'));
+          background-position:50% 60%;
+        }
+
+        .banner-img-cocina5 {
+          @include banner-img(url('../src/images/cocinas/cocina\ 5.jpeg'));
+      }
+
+      .banner-img-cocina6 {
+          @include banner-img(url('../src/images/cocinas/cocina\ 6.jpeg'));
+      }
+
+      .banner-img-cocina7 {
+        @include banner-img(url('../src/images/cocinas/cocina\ 7.jpeg'));
+      }
+
+      .banner-img-cocina8 {
+        @include banner-img(url('../src/images/cocinas/cocina\ 8.jpeg'));
+      }
+
+      .banner-img-cocina9 {
+        @include banner-img(url('../src/images/cocinas/cocina\ 9.jpeg'));
+    }
+
+    .banner-img-cocina10 {
+        @include banner-img(url('../src/images/cocinas/cocina\ 10.jpeg'));
+    }
+
+    .banner-img-cocina11 {
+      @include banner-img(url('../src/images/cocinas/cocina\ 11.jpeg'));
+    }
+
+    .banner-img-cocina12 {
+      @include banner-img(url('../src/images/cocinas/cocina\ 12.jpeg'));
+    }
+    }
+  }
+}
+
+.gallery-dormitorio {
+  @extend %gallery;
+
+  .wrapper-grid {
+
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+
+    .container {
+      height: 20rem;      
+          
+        @mixin banner-img ($image) {
+          position: absolute;
+          background: $image;
+          height: 20rem;
+          width: 100%;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          margin-bottom: 19.5rem;
+        }
+
+        .banner-img-dormitorio1 {
+            @include banner-img(url('../src/images/dormitorios/Comoda\ y\ estantes\ flotantes.jpeg'));
+            background-position: 80%;
+          }
+
+        .banner-img-dormitorio2 {
+            @include banner-img(url('../src/images/dormitorios/cajonera\ industrial.jpeg'));
+            background-position: 0 65%;
+        }
+
+        .banner-img-dormitorio3 {
+          @include banner-img(url('../src/images/dormitorios/Modular.jpeg'));
+          background-position: 38% 65%;
+        }
+
+        .banner-img-dormitorio4 {
+          @include banner-img(url('../src/images/dormitorios/RACK\ TV.jpeg'));
+          background-position: 35% 80%;
+        }
+
+        .banner-img-dormitorio5 {
+          @include banner-img(url('../src/images/dormitorios/placard\ con\ cajonera\ y\ rack\ tv.jpeg'));
+          background-position: 75% 65%;
+      }
+
+      .banner-img-dormitorio6 {
+          @include banner-img(url('../src/images/dormitorios/cama.jpeg'));
+          background-position: 5% 65%;
+      }
+
+      .banner-img-dormitorio7 {
+        @include banner-img(url('../src/images/dormitorios/placard\ 1.jpeg'));
+        background-position: 70% 80%;
+      }
+
+      .banner-img-dormitorio8 {
+        @include banner-img(url('../src/images/dormitorios/placard\ 2.jpeg'));
+        background-position: 75% 50%;
+      }
+
+      .banner-img-dormitorio9 {
+        @include banner-img(url('../src/images/dormitorios/placard\ 3.jpeg'));
+        background-position: 5% 50%;
+    }
+
+    .banner-img-dormitorio10 {
+        @include banner-img(url('../src/images/dormitorios/placard\ 4.jpeg'));
+        background-position: 40% 50%;
+    }
+
+    .banner-img-dormitorio11 {
+      @include banner-img(url('../src/images/dormitorios/vestidor.jpeg'));
+      background-position: 40% 50%;
+    }
+
+    }
+  }
+}
+
+.gallery-oficina {
+  @extend %gallery;
+
+  .wrapper-grid {
+
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+
+    .container {
+      height: 20rem;      
+          
+        @mixin banner-img ($image) {
+          position: absolute;
+          background: $image;
+          height: 20rem;
+          width: 100%;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          margin-bottom: 19.5rem;
+        }
+
+        .banner-img-oficina1 {
+            @include banner-img(url('../src/images/oficinas/oficina\ 1.jpeg'));
+        }
+
+        .banner-img-oficina2 {
+            @include banner-img(url('../src/images/oficinas/oficina\ 2.jpeg'));
+        }
+
+        .banner-img-oficina3 {
+          @include banner-img(url('../src/images/oficinas/oficina\ 3.jpeg'));
+        }
+
+        .banner-img-oficina4 {
+          @include banner-img(url('../src/images/oficinas/oficina\ 4.jpeg'));
+          background-position:50% 60%;
+        }
+
+        .banner-img-oficina5 {
+          @include banner-img(url('../src/images/oficinas/oficina\ 5.jpeg'));
+      }
+
+      .banner-img-oficina6 {
+          @include banner-img(url('../src/images/oficinas/oficina\ 6.jpeg'));
+      }
+
+      .banner-img-oficina7 {
+        @include banner-img(url('../src/images/oficinas/oficina\ 7.jpeg'));
+      }
+
+      .banner-img-oficina8 {
+        @include banner-img(url('../src/images/oficinas/oficina\ 8.jpeg'));
+      }
+    }
+  }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px){
+  .gallery-index {
+    .wrapper-grid {
+      grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+    }
+  }
+  .gallery-bano {
+    .wrapper-grid {
+      grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+    }
+  }
+  .gallery-cocina {
+    .wrapper-grid {
+      grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+    }
+  }
+  .gallery-dormitorio {
+    .wrapper-grid {
+      grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+    }
+  }
+  .gallery-oficina {
+    .wrapper-grid {
+      grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+    }
+  }
+}
+
+@media (max-width: 768px){
+  .gallery-index {
+    .wrapper-grid {
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    }
+  }
+  .gallery-bano {
+    .wrapper-grid {
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    }
+  }
+  .gallery-cocina {
+    .wrapper-grid {
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    }
+  }
+  .gallery-dormitorio {
+    .wrapper-grid {
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    }
+  }
+  .gallery-oficina {
+    .wrapper-grid {
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    }
+  }
+}

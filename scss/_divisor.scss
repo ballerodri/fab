@@ -1,0 +1,65 @@
+@import 'generales';
+
+@mixin divisor ($margin-t,$margin-b) {
+    height: 20vh;
+    padding: 5vh;
+    margin-top: $margin-t;
+    margin-bottom: $margin-b;
+    text-align: center;
+
+    .titulo{
+        font-size: map-get($map: $headings, $key: 'h2');
+        color: nth($colores, 2);
+        margin-bottom: 2vh;
+    }
+
+    .descripcion{
+        font-size: 1.2em;
+        color: nth($colores, 3);
+    }
+}
+
+.divisor-aboutus {
+    @include divisor(0,15vh);
+}
+
+.divisor-catalogo {
+    @include divisor(0vh,0vh);
+
+    .titulo{
+        color: nth($colores, 1);
+        margin-bottom: 2vh;
+    }
+    
+    .descripcion{
+        color: nth($colores, 1);
+    }
+}
+
+.divisor-contacto {
+    @include divisor(10vh,0vh);
+}
+
+@media (max-width: 768px){
+    .divisor-aboutus{
+        margin-bottom: 35vh;
+    }
+    .divisor-catalogo{
+        margin-bottom: 10vh;
+    }
+    .divisor-contacto{
+        margin-bottom: 12vh;
+    }
+}
+
+@media (max-width: 380px){
+    .divisor-aboutus{
+        margin-bottom: 50vh;
+    }
+    .divisor-catalogo{
+        margin-bottom: 20vh;
+    }
+    .divisor-contacto{
+        margin-bottom: 25vh;
+    }
+}
